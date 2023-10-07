@@ -1,0 +1,109 @@
+{
+    "index_patterns": [
+        "ecs-*"
+    ],
+    "template": {
+        "mappings": {
+            "dynamic_templates": [],
+            "properties": {
+                "allowed_values": {
+                    "type": "object",
+                    "properties": {
+                        "expected_event_types": {
+                            "type": "keyword"
+                        },
+                        "name": {
+                            "type": "text"
+                        },
+                        "description": {
+                            "type": "text"
+                        }
+                    }
+                },
+                "original_fieldset": {
+                    "type": "keyword"
+                },
+                "multi_fields": {
+                    "type": "flattened"
+                },
+                "pattern": {
+                    "type": "text"
+                },
+                "description": {
+                    "type": "text"
+                },
+                "type": {
+                    "type": "keyword"
+                },
+                "ecs_version": {
+                    "type": "keyword"
+                },
+                "flat_name": {
+                    "type": "keyword"
+                },
+                "required": {
+                    "type": "boolean"
+                },
+                "doc_values": {
+                    "type": "boolean"
+                },
+                "example": {
+                    "type": "text"
+                },
+                "dashed_name": {
+                    "type": "keyword"
+                },
+                "output_format": {
+                    "type": "keyword"
+                },
+                "normalize": {
+                    "type": "keyword"
+                },
+                "beta": {
+                    "type": "text"
+                },
+                "output_precision": {
+                    "type": "double"
+                },
+                "level": {
+                    "type": "keyword"
+                },
+                "object_type": {
+                    "type": "keyword"
+                },
+                "format": {
+                    "type": "keyword"
+                },
+                "ignore_above": {
+                    "type": "integer"
+                },
+                "index": {
+                    "type": "boolean"
+                },
+                "input_format": {
+                    "type": "keyword"
+                },
+                "field_name": {
+                    "type": "keyword"
+                },
+                "field_set": {
+                    "type": "keyword"
+                },
+                "name": {
+                    "type": "keyword"
+                },
+                "short": {
+                    "type": "text"
+                },
+                "expected_values": {
+                    "type": "keyword"
+                },
+                "scaling_factor": {
+                    "type": "double"
+                }
+            }
+        }
+    },
+    "composed_of": [],
+    "version": 1
+}
